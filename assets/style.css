@@ -1,4 +1,4 @@
-/* GiftQuest design system: warm paper, pine green, cranberry and hand-drawn illustrations. */
+/* GiftQuest design system: warm paper, pine green, cranberry and photographic gift imagery. */
 :root {
   --paper: #faf7f0;
   --white: #fffdf8;
@@ -1187,68 +1187,6 @@ input[aria-invalid="true"] {
   text-align: center;
   padding: 22px 20px 55px;
 }
-.envelope-art {
-  position: relative;
-  width: 300px;
-  height: 195px;
-  margin: 20px auto 45px;
-  background: #ecdfc9;
-  border-radius: 7px;
-  box-shadow: 0 15px 25px #50391d12;
-  transform: rotate(-5deg);
-  border: 1px solid #d7c6ad;
-  overflow: hidden;
-}
-.envelope-art:before,
-.envelope-art:after {
-  content: "";
-  position: absolute;
-  width: 220px;
-  height: 220px;
-  bottom: -130px;
-  transform: rotate(45deg);
-  border: 1px solid #d6c5ab;
-  background: #f0e5d2;
-}
-.envelope-art:before {
-  left: -100px;
-}
-.envelope-art:after {
-  right: -100px;
-}
-.envelope-flap {
-  position: absolute;
-  top: -136px;
-  left: 45px;
-  width: 210px;
-  height: 210px;
-  transform: rotate(45deg);
-  background: #f5ebd9;
-  border: 1px solid #d7c6ad;
-}
-.envelope-seal {
-  position: absolute;
-  top: 73px;
-  left: 125px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: var(--red);
-  color: #efddcc;
-  display: grid;
-  place-items: center;
-  z-index: 2;
-  box-shadow: 0 2px 5px #4c242430;
-}
-.envelope-inscription {
-  position: absolute;
-  bottom: 18px;
-  left: 0;
-  right: 0;
-  font: italic 14px Georgia;
-  z-index: 3;
-  color: #977f61;
-}
 .reveal-stage h2 {
   font-size: 30px;
   margin-bottom: 25px;
@@ -2109,16 +2047,6 @@ dialog .btn-gq {
   }
   .reveal-stage {
     padding: 10px 0 30px;
-  }
-  .envelope-art {
-    width: 280px;
-    height: 185px;
-  }
-  .envelope-flap {
-    left: 35px;
-  }
-  .envelope-seal {
-    left: 115px;
   }
   .reveal-stage h2 {
     font-size: 26px;

@@ -11,9 +11,15 @@
     },
     "price": 2500,
     "category": "stationery",
-    "tags": ["art", "travel"],
-    "styles": ["useful", "creative"],
-    "art": "notebook"
+    "tags": [
+      "art",
+      "travel"
+    ],
+    "styles": [
+      "useful",
+      "creative"
+    ],
+    "photo": "notebook"
   },
   {
     "id": "gift-02",
@@ -27,9 +33,14 @@
     },
     "price": 3500,
     "category": "stationery",
-    "tags": ["art"],
-    "styles": ["useful", "creative"],
-    "art": "pencils"
+    "tags": [
+      "art"
+    ],
+    "styles": [
+      "useful",
+      "creative"
+    ],
+    "photo": "pencils"
   },
   {
     "id": "gift-03",
@@ -43,9 +54,14 @@
     },
     "price": 5500,
     "category": "stationery",
-    "tags": ["art"],
-    "styles": ["creative", "useful"],
-    "art": "palette"
+    "tags": [
+      "art"
+    ],
+    "styles": [
+      "creative",
+      "useful"
+    ],
+    "photo": "art"
   },
   {
     "id": "gift-04",
@@ -59,9 +75,15 @@
     },
     "price": 4500,
     "category": "books",
-    "tags": ["reading", "cozy"],
-    "styles": ["useful", "cozy"],
-    "art": "book"
+    "tags": [
+      "reading",
+      "cozy"
+    ],
+    "styles": [
+      "useful",
+      "cozy"
+    ],
+    "photo": "book"
   },
   {
     "id": "gift-05",
@@ -75,9 +97,15 @@
     },
     "price": 500,
     "category": "books",
-    "tags": ["reading", "art"],
-    "styles": ["handmade", "useful"],
-    "art": "bookmark"
+    "tags": [
+      "reading",
+      "art"
+    ],
+    "styles": [
+      "handmade",
+      "useful"
+    ],
+    "photo": "bookmark"
   },
   {
     "id": "gift-06",
@@ -91,9 +119,14 @@
     },
     "price": 3000,
     "category": "books",
-    "tags": ["reading"],
-    "styles": ["useful", "cozy"],
-    "art": "notebook"
+    "tags": [
+      "reading"
+    ],
+    "styles": [
+      "useful",
+      "cozy"
+    ],
+    "photo": "reading-journal"
   },
   {
     "id": "gift-07",
@@ -107,9 +140,15 @@
     },
     "price": 3000,
     "category": "food",
-    "tags": ["coffee", "cozy"],
-    "styles": ["cozy", "useful"],
-    "art": "tea"
+    "tags": [
+      "coffee",
+      "cozy"
+    ],
+    "styles": [
+      "cozy",
+      "useful"
+    ],
+    "photo": "tea"
   },
   {
     "id": "gift-08",
@@ -123,9 +162,14 @@
     },
     "price": 4500,
     "category": "food",
-    "tags": ["coffee"],
-    "styles": ["useful", "cozy"],
-    "art": "coffee"
+    "tags": [
+      "coffee"
+    ],
+    "styles": [
+      "useful",
+      "cozy"
+    ],
+    "photo": "coffee"
   },
   {
     "id": "gift-09",
@@ -139,9 +183,15 @@
     },
     "price": 3500,
     "category": "decor",
-    "tags": ["coffee", "cozy"],
-    "styles": ["useful", "cozy"],
-    "art": "mug"
+    "tags": [
+      "coffee",
+      "cozy"
+    ],
+    "styles": [
+      "useful",
+      "cozy"
+    ],
+    "photo": "mug"
   },
   {
     "id": "gift-10",
@@ -155,9 +205,16 @@
     },
     "price": 2500,
     "category": "food",
-    "tags": ["coffee", "cooking", "cozy"],
-    "styles": ["cozy", "creative"],
-    "art": "mug"
+    "tags": [
+      "coffee",
+      "cooking",
+      "cozy"
+    ],
+    "styles": [
+      "cozy",
+      "creative"
+    ],
+    "photo": "cocoa"
   },
   {
     "id": "gift-11",
@@ -171,9 +228,15 @@
     },
     "price": 1500,
     "category": "food",
-    "tags": ["cooking", "cozy"],
-    "styles": ["handmade", "cozy"],
-    "art": "cookies"
+    "tags": [
+      "cooking",
+      "cozy"
+    ],
+    "styles": [
+      "handmade",
+      "cozy"
+    ],
+    "photo": "food"
   },
   {
     "id": "gift-12",
@@ -187,9 +250,14 @@
     },
     "price": 3500,
     "category": "food",
-    "tags": ["cooking"],
-    "styles": ["useful", "creative"],
-    "art": "jars"
+    "tags": [
+      "cooking"
+    ],
+    "styles": [
+      "useful",
+      "creative"
+    ],
+    "photo": "spices"
   },
   {
     "id": "gift-13",
@@ -203,9 +271,15 @@
     },
     "price": 700,
     "category": "stationery",
-    "tags": ["cooking", "art"],
-    "styles": ["handmade", "useful"],
-    "art": "notebook"
+    "tags": [
+      "cooking",
+      "art"
+    ],
+    "styles": [
+      "handmade",
+      "useful"
+    ],
+    "photo": "recipe-cards"
   },
   {
     "id": "gift-14",
@@ -219,9 +293,15 @@
     },
     "price": 6000,
     "category": "games",
-    "tags": ["gaming", "travel"],
-    "styles": ["creative", "experience"],
-    "art": "game"
+    "tags": [
+      "gaming",
+      "travel"
+    ],
+    "styles": [
+      "creative",
+      "experience"
+    ],
+    "photo": "games"
   },
   {
     "id": "gift-15",
@@ -235,9 +315,14 @@
     },
     "price": 2500,
     "category": "games",
-    "tags": ["gaming"],
-    "styles": ["creative", "useful"],
-    "art": "puzzle"
+    "tags": [
+      "gaming"
+    ],
+    "styles": [
+      "creative",
+      "useful"
+    ],
+    "photo": "puzzle"
   },
   {
     "id": "gift-16",
@@ -251,9 +336,16 @@
     },
     "price": 4500,
     "category": "games",
-    "tags": ["gaming", "art", "cozy"],
-    "styles": ["cozy", "creative"],
-    "art": "puzzle"
+    "tags": [
+      "gaming",
+      "art",
+      "cozy"
+    ],
+    "styles": [
+      "cozy",
+      "creative"
+    ],
+    "photo": "jigsaw"
   },
   {
     "id": "gift-17",
@@ -267,9 +359,15 @@
     },
     "price": 2000,
     "category": "experience",
-    "tags": ["gaming", "cozy"],
-    "styles": ["experience", "handmade"],
-    "art": "ticket"
+    "tags": [
+      "gaming",
+      "cozy"
+    ],
+    "styles": [
+      "experience",
+      "handmade"
+    ],
+    "photo": "game-invitation"
   },
   {
     "id": "gift-18",
@@ -283,9 +381,15 @@
     },
     "price": 3500,
     "category": "decor",
-    "tags": ["nature", "cozy"],
-    "styles": ["useful", "cozy"],
-    "art": "plant"
+    "tags": [
+      "nature",
+      "cozy"
+    ],
+    "styles": [
+      "useful",
+      "cozy"
+    ],
+    "photo": "plant"
   },
   {
     "id": "gift-19",
@@ -299,9 +403,15 @@
     },
     "price": 3000,
     "category": "decor",
-    "tags": ["nature", "cooking"],
-    "styles": ["creative", "useful"],
-    "art": "plant"
+    "tags": [
+      "nature",
+      "cooking"
+    ],
+    "styles": [
+      "creative",
+      "useful"
+    ],
+    "photo": "herbs"
   },
   {
     "id": "gift-20",
@@ -315,9 +425,16 @@
     },
     "price": 800,
     "category": "decor",
-    "tags": ["art", "coffee", "cozy"],
-    "styles": ["handmade", "useful"],
-    "art": "mug"
+    "tags": [
+      "art",
+      "coffee",
+      "cozy"
+    ],
+    "styles": [
+      "handmade",
+      "useful"
+    ],
+    "photo": "coaster"
   },
   {
     "id": "gift-21",
@@ -331,9 +448,15 @@
     },
     "price": 8000,
     "category": "decor",
-    "tags": ["cozy", "reading"],
-    "styles": ["cozy", "useful"],
-    "art": "blanket"
+    "tags": [
+      "cozy",
+      "reading"
+    ],
+    "styles": [
+      "cozy",
+      "useful"
+    ],
+    "photo": "cozy"
   },
   {
     "id": "gift-22",
@@ -347,9 +470,15 @@
     },
     "price": 6000,
     "category": "tech",
-    "tags": ["cozy", "reading"],
-    "styles": ["cozy", "useful"],
-    "art": "lamp"
+    "tags": [
+      "cozy",
+      "reading"
+    ],
+    "styles": [
+      "cozy",
+      "useful"
+    ],
+    "photo": "lamp"
   },
   {
     "id": "gift-23",
@@ -363,9 +492,15 @@
     },
     "price": 4500,
     "category": "accessories",
-    "tags": ["sport", "nature", "travel"],
-    "styles": ["useful"],
-    "art": "bottle"
+    "tags": [
+      "sport",
+      "nature",
+      "travel"
+    ],
+    "styles": [
+      "useful"
+    ],
+    "photo": "bottle"
   },
   {
     "id": "gift-24",
@@ -379,9 +514,14 @@
     },
     "price": 3000,
     "category": "accessories",
-    "tags": ["sport", "travel"],
-    "styles": ["useful"],
-    "art": "blanket"
+    "tags": [
+      "sport",
+      "travel"
+    ],
+    "styles": [
+      "useful"
+    ],
+    "photo": "towel"
   },
   {
     "id": "gift-25",
@@ -395,9 +535,13 @@
     },
     "price": 2500,
     "category": "accessories",
-    "tags": ["sport"],
-    "styles": ["useful"],
-    "art": "ribbon"
+    "tags": [
+      "sport"
+    ],
+    "styles": [
+      "useful"
+    ],
+    "photo": "resistance"
   },
   {
     "id": "gift-26",
@@ -411,9 +555,13 @@
     },
     "price": 3000,
     "category": "accessories",
-    "tags": ["travel"],
-    "styles": ["useful"],
-    "art": "notebook"
+    "tags": [
+      "travel"
+    ],
+    "styles": [
+      "useful"
+    ],
+    "photo": "travel-cover"
   },
   {
     "id": "gift-27",
@@ -427,9 +575,16 @@
     },
     "price": 2000,
     "category": "accessories",
-    "tags": ["art", "nature", "travel"],
-    "styles": ["handmade", "useful"],
-    "art": "bag"
+    "tags": [
+      "art",
+      "nature",
+      "travel"
+    ],
+    "styles": [
+      "handmade",
+      "useful"
+    ],
+    "photo": "accessories"
   },
   {
     "id": "gift-28",
@@ -443,9 +598,14 @@
     },
     "price": 3500,
     "category": "accessories",
-    "tags": ["travel", "gaming"],
-    "styles": ["useful"],
-    "art": "bag"
+    "tags": [
+      "travel",
+      "gaming"
+    ],
+    "styles": [
+      "useful"
+    ],
+    "photo": "organizer"
   },
   {
     "id": "gift-29",
@@ -459,9 +619,14 @@
     },
     "price": 2000,
     "category": "tech",
-    "tags": ["gaming", "music"],
-    "styles": ["useful"],
-    "art": "phone"
+    "tags": [
+      "gaming",
+      "music"
+    ],
+    "styles": [
+      "useful"
+    ],
+    "photo": "phone-stand"
   },
   {
     "id": "gift-30",
@@ -475,9 +640,15 @@
     },
     "price": 10000,
     "category": "tech",
-    "tags": ["music", "travel"],
-    "styles": ["useful", "creative"],
-    "art": "speaker"
+    "tags": [
+      "music",
+      "travel"
+    ],
+    "styles": [
+      "useful",
+      "creative"
+    ],
+    "photo": "tech"
   },
   {
     "id": "gift-31",
@@ -491,9 +662,15 @@
     },
     "price": 300,
     "category": "stationery",
-    "tags": ["music", "art"],
-    "styles": ["handmade", "creative"],
-    "art": "ticket"
+    "tags": [
+      "music",
+      "art"
+    ],
+    "styles": [
+      "handmade",
+      "creative"
+    ],
+    "photo": "music-card"
   },
   {
     "id": "gift-32",
@@ -507,9 +684,14 @@
     },
     "price": 7000,
     "category": "experience",
-    "tags": ["music", "art"],
-    "styles": ["experience"],
-    "art": "ticket"
+    "tags": [
+      "music",
+      "art"
+    ],
+    "styles": [
+      "experience"
+    ],
+    "photo": "event-ticket"
   },
   {
     "id": "gift-33",
@@ -523,9 +705,14 @@
     },
     "price": 12000,
     "category": "experience",
-    "tags": ["art"],
-    "styles": ["experience", "creative"],
-    "art": "palette"
+    "tags": [
+      "art"
+    ],
+    "styles": [
+      "experience",
+      "creative"
+    ],
+    "photo": "workshop"
   },
   {
     "id": "gift-34",
@@ -539,9 +726,16 @@
     },
     "price": 2500,
     "category": "experience",
-    "tags": ["nature", "travel", "cozy"],
-    "styles": ["experience", "handmade"],
-    "art": "bag"
+    "tags": [
+      "nature",
+      "travel",
+      "cozy"
+    ],
+    "styles": [
+      "experience",
+      "handmade"
+    ],
+    "photo": "picnic"
   },
   {
     "id": "gift-35",
@@ -555,9 +749,15 @@
     },
     "price": 500,
     "category": "stationery",
-    "tags": ["cozy", "art"],
-    "styles": ["handmade", "cozy"],
-    "art": "gift"
+    "tags": [
+      "cozy",
+      "art"
+    ],
+    "styles": [
+      "handmade",
+      "cozy"
+    ],
+    "photo": "gift"
   },
   {
     "id": "gift-36",
@@ -571,8 +771,15 @@
     },
     "price": 2000,
     "category": "stationery",
-    "tags": ["art", "travel", "reading"],
-    "styles": ["creative", "cozy"],
-    "art": "ticket"
+    "tags": [
+      "art",
+      "travel",
+      "reading"
+    ],
+    "styles": [
+      "creative",
+      "cozy"
+    ],
+    "photo": "postcards"
   }
 ]

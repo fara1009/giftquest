@@ -82,6 +82,8 @@
   const currentChosen = () => state.selected[person()?.id] || "";
   const uid = () => "p-" + crypto.randomUUID();
   const icons = {
+    moon: '<path d="M20.8 13.2A9 9 0 0 1 10.8 3.2 9 9 0 1 0 20.8 13.2Z"/>',
+    sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.4 1.4M17.6 17.6 19 19M5 19l1.4-1.4M17.6 6.4 19 5"/>',
     gift: '<path d="M3 9h18v4H3zM5 13v8h14v-8M12 9v12M12 9H8a3 3 0 1 1 3-3l1 3Zm0 0h4a3 3 0 1 0-3-3l-1 3Z"/>',
     arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
     heart:
@@ -111,14 +113,22 @@
     >
       ${icons[name] || icons.gift}
     </svg>`;
-  const art = (name, cls = "") =>
-    /* HTML */ `<svg
-      class="gift-art ${cls}"
-      viewBox="0 0 200 160"
-      aria-hidden="true"
-    >
-      <use href="assets/illustrations.svg#${name}"></use>
-    </svg>`;
+  // Image filenames and bilingual alt text come from the local JSON catalog.
+  const art = (name, cls = "") => {
+    const photo = /^[a-z-]+$/.test(name) ? name : "gift";
+    return /* HTML */ `<img class="gift-art ${cls}"
+      src="assets/photos/${photo}.webp" width="768" height="768"
+      alt="${esc(t("photo_" + photo))}" loading="lazy" decoding="async" />`;
+  };
+  function updateThemeControl() {
+    const dark = window.GiftTheme.current() === "dark";
+    const button = document.querySelector("[data-theme-toggle]");
+    if (!button) return;
+    button.setAttribute("aria-pressed", String(dark));
+    button.setAttribute("aria-label", t("darkTheme"));
+    button.setAttribute("title", t(dark ? "switchLight" : "switchDark"));
+    button.innerHTML = icon(dark ? "sun" : "moon");
+  }
   function notify(message) {
     const el = document.getElementById("toast");
     el.textContent = message;
@@ -256,6 +266,7 @@
           ></a
         ><button
           class="menu-toggle"
+          aria-label="${t("menu")}"
           aria-expanded="false"
           aria-controls="main-nav"
         >
@@ -273,17 +284,21 @@
               ([url, key]) =>
                 /* HTML */ `<a
                   href="${url}.html"
-                  ${page === url ? 'aria-current="page"' : ""}
+                  ${page === url || (page === "profile" && url === "game") ? 'aria-current="page"' : ""}
                   >${t(key)}</a
                 >`,
             )
             .join("")}
         </nav>
-        <div class="language" aria-label="${t("lang")}">
+        <div class="header-tools">
+        <button type="button" class="theme-toggle" data-theme-toggle
+          aria-label="${t("darkTheme")}" aria-pressed="false"></button>
+        <div class="language" role="group" aria-label="${t("lang")}">
           ${["ru", "en"].map((l) => /* HTML */ `<button data-lang="${l}" lang="${l}" aria-pressed="${language === l}">${l.toUpperCase()}</button>`).join("")}
-        </div>
+        </div></div>
       </div>`,
     );
+    updateThemeControl();
     $("#footer").html(
       /* HTML */ `<div class="container footer-main">
           <a class="brand" href="index.html"
@@ -355,9 +370,10 @@
               <div class="hero-scene">
                 <span class="scene-corner top">✧</span
                 ><img
-                  src="assets/hero.svg"
-                  width="660"
-                  height="560"
+                  src="assets/hero-photo.webp"
+                  width="1200"
+                  height="800"
+                  fetchpriority="high"
                   alt="${language === "ru" ? "Подарки, открытка и веточка ели" : "Wrapped presents, a card and a fir branch"}"
                 /><span class="scene-note">${t("heroSticker")} ♡</span
                 ><span class="scene-stamp">${t("heroStamp")}<br />✧</span>
@@ -455,7 +471,7 @@
           data-detail="${g.id}"
           aria-label="${t("details")}: ${esc(localized(g.title))}"
         >
-          ${art(g.art)}</button
+          ${art(g.photo)}</button
         ><button
           class="heart-button ${saved ? "is-saved" : ""}"
           data-save="${g.id}"
@@ -829,11 +845,11 @@ ${esc(p.note)}</textarea>
     let content;
     if (!revealed)
       content = /* HTML */ `<div class="reveal-stage">
-        <div class="envelope-art">
-          <div class="envelope-flap"></div>
-          <div class="envelope-seal">${icon("gift")}</div>
-          <span class="envelope-inscription">${t("yourSanta")}</span>
-        </div>
+        <figure class="envelope-photo">
+          <img src="assets/envelope-photo.webp" width="840" height="560"
+            alt="${t("photo_envelope")}" decoding="async" />
+          <figcaption>${t("yourSanta")}</figcaption>
+        </figure>
         <h2>${t("sealed")}</h2>
         <button class="btn-gq primary" data-reveal>
           ${t("reveal")} ${icon("arrow")}
@@ -1051,7 +1067,7 @@ ${esc(p.note)}</textarea>
                               data-detail="${g.id}"
                               aria-label="${t("details")}: ${esc(localized(g.title))}"
                             >
-                              ${art(g.art)}
+                              ${art(g.photo)}
                             </button>
                             <div>
                               <span class="gift-category"
@@ -1171,7 +1187,7 @@ ${esc(p.note)}</textarea>
     if (!g) return;
     openDialog(
       esc(localized(g.title)),
-      /* HTML */ `<div class="detail-art tone-${g.category}">${art(g.art)}</div>
+      /* HTML */ `<div class="detail-art tone-${g.category}">${art(g.photo)}</div>
         <span class="gift-category">${t(g.category)}</span>
         <p class="detail-description">${esc(localized(g.description))}</p>
         <div class="detail-price">
@@ -1284,6 +1300,10 @@ ${esc(p.note)}</textarea>
     }
   }
   function events() {
+    $(document).on("click", "[data-theme-toggle]", () => {
+      if (!window.GiftTheme.toggle()) notify(t("themeStorageError"));
+    });
+    document.addEventListener("giftquest:themechange", updateThemeControl);
     $(document).on("click", "[data-lang]", function () {
       // Preserve an in-progress form when changing language, including unchecked options.
       let draft = null;
@@ -1604,7 +1624,11 @@ ${esc(p.note)}</textarea>
   }
   async function init() {
     try {
-      [translations, gifts] = await Promise.all([
+      if (location.protocol === "file:") {
+        // Browsers allow classic scripts from local files, but block JSON requests.
+        translations = window.GiftQuestLocalData.i18n;
+        gifts = window.GiftQuestLocalData.gifts;
+      } else [translations, gifts] = await Promise.all([
         $.getJSON("assets/data/i18n.json"),
         $.getJSON("assets/data/gifts.json"),
       ]);
@@ -1622,7 +1646,7 @@ ${esc(p.note)}</textarea>
       if (corrupt) notify(t("dataRecovered"));
     } catch (error) {
       $main.html(
-        '<div class="container page-wrap"><div class="empty-state"><h1>Не удалось загрузить сайт / Could not load the site</h1><p>Проверьте соединение. Для локального запуска нужен веб-сервер.<br>Check your connection. A local web server is required.</p><button class="btn-gq primary" id="retry-load">Повторить / Retry</button></div></div>',
+        '<div class="container page-wrap"><div class="empty-state"><h1>Не удалось загрузить сайт / Could not load the site</h1><p>Убедитесь, что архив полностью распакован и папка assets находится рядом с HTML-файлами.<br>Extract the complete archive and keep the assets folder next to the HTML files.</p><button class="btn-gq primary" id="retry-load">Повторить / Retry</button></div></div>',
       );
       $("#retry-load").on("click", () => location.reload());
       console.error("GiftQuest initialization:", error);
