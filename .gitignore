@@ -1,0 +1,8 @@
+.sites-local/
+.DS_Store
+*.log
+*.tar.gz
+*.zip
+qa/
+tmp/
+outputs/

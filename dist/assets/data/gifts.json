@@ -1,0 +1,578 @@
+[
+  {
+    "id": "gift-01",
+    "title": {
+      "ru": "Скетчбук для маленьких идей",
+      "en": "A sketchbook for little ideas"
+    },
+    "description": {
+      "ru": "Плотная бумага для рисунков, заметок и планов, которым пора появиться на свет.",
+      "en": "Thick paper for drawings, notes and plans ready to come to life."
+    },
+    "price": 2500,
+    "category": "stationery",
+    "tags": ["art", "travel"],
+    "styles": ["useful", "creative"],
+    "art": "notebook"
+  },
+  {
+    "id": "gift-02",
+    "title": {
+      "ru": "Набор цветных карандашей",
+      "en": "A set of colored pencils"
+    },
+    "description": {
+      "ru": "Несколько любимых цветов и повод провести вечер за рисованием.",
+      "en": "Favorite colors and a reason to spend an evening drawing."
+    },
+    "price": 3500,
+    "category": "stationery",
+    "tags": ["art"],
+    "styles": ["useful", "creative"],
+    "art": "pencils"
+  },
+  {
+    "id": "gift-03",
+    "title": {
+      "ru": "Акварельный набор",
+      "en": "A watercolor set"
+    },
+    "description": {
+      "ru": "Небольшая палитра для открыток, скетчей и творческих экспериментов.",
+      "en": "A little palette for postcards, sketches and creative experiments."
+    },
+    "price": 5500,
+    "category": "stationery",
+    "tags": ["art"],
+    "styles": ["creative", "useful"],
+    "art": "palette"
+  },
+  {
+    "id": "gift-04",
+    "title": {
+      "ru": "Книга с личной закладкой",
+      "en": "A book with a personal bookmark"
+    },
+    "description": {
+      "ru": "Выберите историю по интересам получателя и добавьте записку между страниц.",
+      "en": "Choose a story around their interests and tuck a note between the pages."
+    },
+    "price": 4500,
+    "category": "books",
+    "tags": ["reading", "cozy"],
+    "styles": ["useful", "cozy"],
+    "art": "book"
+  },
+  {
+    "id": "gift-05",
+    "title": {
+      "ru": "Закладка ручной работы",
+      "en": "A handmade bookmark"
+    },
+    "description": {
+      "ru": "Сделайте закладку с рисунком, любимым цветом или небольшой цитатой.",
+      "en": "Make a bookmark with a drawing, favorite color or a little quote."
+    },
+    "price": 500,
+    "category": "books",
+    "tags": ["reading", "art"],
+    "styles": ["handmade", "useful"],
+    "art": "bookmark"
+  },
+  {
+    "id": "gift-06",
+    "title": {
+      "ru": "Читательский дневник",
+      "en": "A reading journal"
+    },
+    "description": {
+      "ru": "Место для впечатлений, любимых фраз и списка будущих историй.",
+      "en": "A home for impressions, favorite lines and stories still to read."
+    },
+    "price": 3000,
+    "category": "books",
+    "tags": ["reading"],
+    "styles": ["useful", "cozy"],
+    "art": "notebook"
+  },
+  {
+    "id": "gift-07",
+    "title": {
+      "ru": "Чайная коллекция",
+      "en": "A little tea collection"
+    },
+    "description": {
+      "ru": "Несколько видов чая для неспешных вечеров и разговоров.",
+      "en": "A selection of teas for slow evenings and good conversations."
+    },
+    "price": 3000,
+    "category": "food",
+    "tags": ["coffee", "cozy"],
+    "styles": ["cozy", "useful"],
+    "art": "tea"
+  },
+  {
+    "id": "gift-08",
+    "title": {
+      "ru": "Кофе для нового утра",
+      "en": "Coffee for a fresh morning"
+    },
+    "description": {
+      "ru": "Небольшая пачка кофе и записка с пожеланием хорошего дня.",
+      "en": "A small bag of coffee and a note wishing them a lovely day."
+    },
+    "price": 4500,
+    "category": "food",
+    "tags": ["coffee"],
+    "styles": ["useful", "cozy"],
+    "art": "coffee"
+  },
+  {
+    "id": "gift-09",
+    "title": {
+      "ru": "Керамическая чашка",
+      "en": "A ceramic cup"
+    },
+    "description": {
+      "ru": "Простая чашка приятного цвета для ежедневного маленького ритуала.",
+      "en": "A simple cup in a lovely color for an everyday little ritual."
+    },
+    "price": 3500,
+    "category": "decor",
+    "tags": ["coffee", "cozy"],
+    "styles": ["useful", "cozy"],
+    "art": "mug"
+  },
+  {
+    "id": "gift-10",
+    "title": {
+      "ru": "Набор для какао",
+      "en": "A cozy cocoa kit"
+    },
+    "description": {
+      "ru": "Какао, небольшие добавки и рецепт любимого зимнего напитка.",
+      "en": "Cocoa, little toppings and a recipe for a favorite winter drink."
+    },
+    "price": 2500,
+    "category": "food",
+    "tags": ["coffee", "cooking", "cozy"],
+    "styles": ["cozy", "creative"],
+    "art": "mug"
+  },
+  {
+    "id": "gift-11",
+    "title": {
+      "ru": "Печенье в подарочной коробке",
+      "en": "Homemade cookies in a gift box"
+    },
+    "description": {
+      "ru": "Испеките печенье и приложите карточку с полным списком ингредиентов.",
+      "en": "Bake cookies and include a card listing every ingredient."
+    },
+    "price": 1500,
+    "category": "food",
+    "tags": ["cooking", "cozy"],
+    "styles": ["handmade", "cozy"],
+    "art": "cookies"
+  },
+  {
+    "id": "gift-12",
+    "title": {
+      "ru": "Набор пряностей",
+      "en": "A spice collection"
+    },
+    "description": {
+      "ru": "Небольшие баночки пряностей и три идеи, что с ними приготовить.",
+      "en": "Little jars of spices and three ideas for cooking with them."
+    },
+    "price": 3500,
+    "category": "food",
+    "tags": ["cooking"],
+    "styles": ["useful", "creative"],
+    "art": "jars"
+  },
+  {
+    "id": "gift-13",
+    "title": {
+      "ru": "Карточки семейных рецептов",
+      "en": "Handwritten recipe cards"
+    },
+    "description": {
+      "ru": "Соберите проверенные рецепты в красивую небольшую подборку.",
+      "en": "Gather tried-and-loved recipes into a lovely little collection."
+    },
+    "price": 700,
+    "category": "stationery",
+    "tags": ["cooking", "art"],
+    "styles": ["handmade", "useful"],
+    "art": "notebook"
+  },
+  {
+    "id": "gift-14",
+    "title": {
+      "ru": "Компактная настольная игра",
+      "en": "A pocket-sized board game"
+    },
+    "description": {
+      "ru": "Игра для компании, которую удобно взять в гости или поездку.",
+      "en": "A game for friends that travels easily to a gathering or a weekend away."
+    },
+    "price": 6000,
+    "category": "games",
+    "tags": ["gaming", "travel"],
+    "styles": ["creative", "experience"],
+    "art": "game"
+  },
+  {
+    "id": "gift-15",
+    "title": {
+      "ru": "Деревянная головоломка",
+      "en": "A wooden puzzle"
+    },
+    "description": {
+      "ru": "Небольшая задача для любопытных рук и спокойного вечера.",
+      "en": "A little challenge for curious hands and a peaceful evening."
+    },
+    "price": 2500,
+    "category": "games",
+    "tags": ["gaming"],
+    "styles": ["creative", "useful"],
+    "art": "puzzle"
+  },
+  {
+    "id": "gift-16",
+    "title": {
+      "ru": "Пазл на уютный вечер",
+      "en": "A puzzle for a cozy evening"
+    },
+    "description": {
+      "ru": "Выберите сюжет по интересам получателя и собирайте его без спешки.",
+      "en": "Choose a scene they love and piece it together without a rush."
+    },
+    "price": 4500,
+    "category": "games",
+    "tags": ["gaming", "art", "cozy"],
+    "styles": ["cozy", "creative"],
+    "art": "puzzle"
+  },
+  {
+    "id": "gift-17",
+    "title": {
+      "ru": "Приглашение на игровой вечер",
+      "en": "A homemade game-night invitation"
+    },
+    "description": {
+      "ru": "Подготовьте игры, маленькие закуски и открытку с приглашением.",
+      "en": "Prepare games, little snacks and a handwritten invitation."
+    },
+    "price": 2000,
+    "category": "experience",
+    "tags": ["gaming", "cozy"],
+    "styles": ["experience", "handmade"],
+    "art": "ticket"
+  },
+  {
+    "id": "gift-18",
+    "title": {
+      "ru": "Маленькое растение",
+      "en": "A little potted plant"
+    },
+    "description": {
+      "ru": "Неприхотливое растение и простая памятка по уходу от продавца.",
+      "en": "An easy-care plant with simple care instructions from the seller."
+    },
+    "price": 3500,
+    "category": "decor",
+    "tags": ["nature", "cozy"],
+    "styles": ["useful", "cozy"],
+    "art": "plant"
+  },
+  {
+    "id": "gift-19",
+    "title": {
+      "ru": "Набор для выращивания зелени",
+      "en": "A little herb-growing kit"
+    },
+    "description": {
+      "ru": "Горшочек, грунт и семена — небольшой сад на подоконнике.",
+      "en": "A pot, soil and seeds for a little windowsill garden."
+    },
+    "price": 3000,
+    "category": "decor",
+    "tags": ["nature", "cooking"],
+    "styles": ["creative", "useful"],
+    "art": "plant"
+  },
+  {
+    "id": "gift-20",
+    "title": {
+      "ru": "Подставка под чашку",
+      "en": "A handmade coaster"
+    },
+    "description": {
+      "ru": "Небольшая подставка из доступных материалов с личным рисунком.",
+      "en": "A little coaster made from simple materials with a personal design."
+    },
+    "price": 800,
+    "category": "decor",
+    "tags": ["art", "coffee", "cozy"],
+    "styles": ["handmade", "useful"],
+    "art": "mug"
+  },
+  {
+    "id": "gift-21",
+    "title": {
+      "ru": "Тёплый плед",
+      "en": "A warm throw"
+    },
+    "description": {
+      "ru": "Мягкий плед спокойного цвета для чтения и кино по вечерам.",
+      "en": "A soft throw in a peaceful color for evenings with books and films."
+    },
+    "price": 8000,
+    "category": "decor",
+    "tags": ["cozy", "reading"],
+    "styles": ["cozy", "useful"],
+    "art": "blanket"
+  },
+  {
+    "id": "gift-22",
+    "title": {
+      "ru": "Небольшой ночник",
+      "en": "A little night light"
+    },
+    "description": {
+      "ru": "Мягкий свет для уютного уголка и вечернего настроения.",
+      "en": "Soft light for a cozy corner and a peaceful evening mood."
+    },
+    "price": 6000,
+    "category": "tech",
+    "tags": ["cozy", "reading"],
+    "styles": ["cozy", "useful"],
+    "art": "lamp"
+  },
+  {
+    "id": "gift-23",
+    "title": {
+      "ru": "Многоразовая бутылка",
+      "en": "A reusable water bottle"
+    },
+    "description": {
+      "ru": "Компактная бутылка для прогулок, занятий и повседневных дел.",
+      "en": "A compact bottle for walks, exercise and everyday adventures."
+    },
+    "price": 4500,
+    "category": "accessories",
+    "tags": ["sport", "nature", "travel"],
+    "styles": ["useful"],
+    "art": "bottle"
+  },
+  {
+    "id": "gift-24",
+    "title": {
+      "ru": "Спортивное полотенце",
+      "en": "A compact sports towel"
+    },
+    "description": {
+      "ru": "Лёгкое полотенце, которое удобно положить в спортивную сумку.",
+      "en": "A lightweight towel that fits neatly in a gym bag."
+    },
+    "price": 3000,
+    "category": "accessories",
+    "tags": ["sport", "travel"],
+    "styles": ["useful"],
+    "art": "blanket"
+  },
+  {
+    "id": "gift-25",
+    "title": {
+      "ru": "Эспандер для разминки",
+      "en": "A light resistance band"
+    },
+    "description": {
+      "ru": "Небольшой аксессуар для человека, который уже любит тренировки.",
+      "en": "A little accessory for someone who already enjoys working out."
+    },
+    "price": 2500,
+    "category": "accessories",
+    "tags": ["sport"],
+    "styles": ["useful"],
+    "art": "ribbon"
+  },
+  {
+    "id": "gift-26",
+    "title": {
+      "ru": "Обложка для документов",
+      "en": "A travel document cover"
+    },
+    "description": {
+      "ru": "Аккуратная обложка для документов и маленьких планов на поездку.",
+      "en": "A neat cover for documents and little travel plans."
+    },
+    "price": 3000,
+    "category": "accessories",
+    "tags": ["travel"],
+    "styles": ["useful"],
+    "art": "notebook"
+  },
+  {
+    "id": "gift-27",
+    "title": {
+      "ru": "Тканевый шопер с рисунком",
+      "en": "A hand-decorated tote bag"
+    },
+    "description": {
+      "ru": "Однотонная сумка и собственный рисунок краской для ткани.",
+      "en": "A plain tote bag with your own fabric-paint design."
+    },
+    "price": 2000,
+    "category": "accessories",
+    "tags": ["art", "nature", "travel"],
+    "styles": ["handmade", "useful"],
+    "art": "bag"
+  },
+  {
+    "id": "gift-28",
+    "title": {
+      "ru": "Карманный органайзер",
+      "en": "A little travel organizer"
+    },
+    "description": {
+      "ru": "Место для проводов, небольших аксессуаров и важных мелочей.",
+      "en": "A place for cables, small accessories and important little things."
+    },
+    "price": 3500,
+    "category": "accessories",
+    "tags": ["travel", "gaming"],
+    "styles": ["useful"],
+    "art": "bag"
+  },
+  {
+    "id": "gift-29",
+    "title": {
+      "ru": "Подставка для телефона",
+      "en": "A phone stand"
+    },
+    "description": {
+      "ru": "Простой помощник для рабочего стола и видеозвонков.",
+      "en": "A simple little helper for a desk and video calls."
+    },
+    "price": 2000,
+    "category": "tech",
+    "tags": ["gaming", "music"],
+    "styles": ["useful"],
+    "art": "phone"
+  },
+  {
+    "id": "gift-30",
+    "title": {
+      "ru": "Небольшая колонка",
+      "en": "A small speaker"
+    },
+    "description": {
+      "ru": "Компактная колонка для музыки дома или на небольшой встрече.",
+      "en": "A compact speaker for music at home or a small gathering."
+    },
+    "price": 10000,
+    "category": "tech",
+    "tags": ["music", "travel"],
+    "styles": ["useful", "creative"],
+    "art": "speaker"
+  },
+  {
+    "id": "gift-31",
+    "title": {
+      "ru": "Музыкальная открытка",
+      "en": "A handwritten music postcard"
+    },
+    "description": {
+      "ru": "Составьте плейлист и напишите, почему каждая песня напомнила вам о человеке.",
+      "en": "Make a playlist and write why each song made you think of them."
+    },
+    "price": 300,
+    "category": "stationery",
+    "tags": ["music", "art"],
+    "styles": ["handmade", "creative"],
+    "art": "ticket"
+  },
+  {
+    "id": "gift-32",
+    "title": {
+      "ru": "Билет на локальное событие",
+      "en": "A ticket to a local event"
+    },
+    "description": {
+      "ru": "Выберите событие по интересам и заранее согласуйте удобную дату.",
+      "en": "Pick an event around their interests and agree on a suitable date."
+    },
+    "price": 7000,
+    "category": "experience",
+    "tags": ["music", "art"],
+    "styles": ["experience"],
+    "art": "ticket"
+  },
+  {
+    "id": "gift-33",
+    "title": {
+      "ru": "Творческий мастер-класс",
+      "en": "A creative workshop"
+    },
+    "description": {
+      "ru": "Возможность попробовать новый материал или сделать небольшую вещь.",
+      "en": "A chance to try a new material or make something with their hands."
+    },
+    "price": 12000,
+    "category": "experience",
+    "tags": ["art"],
+    "styles": ["experience", "creative"],
+    "art": "palette"
+  },
+  {
+    "id": "gift-34",
+    "title": {
+      "ru": "Прогулка с маленьким пикником",
+      "en": "A walk and a little picnic"
+    },
+    "description": {
+      "ru": "Составьте маршрут и приготовьте небольшой перекус на двоих.",
+      "en": "Plan a route and prepare a little snack for two."
+    },
+    "price": 2500,
+    "category": "experience",
+    "tags": ["nature", "travel", "cozy"],
+    "styles": ["experience", "handmade"],
+    "art": "bag"
+  },
+  {
+    "id": "gift-35",
+    "title": {
+      "ru": "Коробка добрых записок",
+      "en": "A box of kind little notes"
+    },
+    "description": {
+      "ru": "Напишите воспоминания, благодарности и пожелания на отдельных карточках.",
+      "en": "Write memories, thank-yous and wishes on individual little cards."
+    },
+    "price": 500,
+    "category": "stationery",
+    "tags": ["cozy", "art"],
+    "styles": ["handmade", "cozy"],
+    "art": "gift"
+  },
+  {
+    "id": "gift-36",
+    "title": {
+      "ru": "Набор красивых открыток",
+      "en": "A set of illustrated postcards"
+    },
+    "description": {
+      "ru": "Небольшая коллекция открыток для вдохновения или писем друзьям.",
+      "en": "A little postcard collection for inspiration or letters to friends."
+    },
+    "price": 2000,
+    "category": "stationery",
+    "tags": ["art", "travel", "reading"],
+    "styles": ["creative", "cozy"],
+    "art": "ticket"
+  }
+]

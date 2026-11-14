@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="GiftQuest — уютный Тайный Санта: соберите круг друзей, поделитесь пожеланиями и найдите подарок с заботой."
+    />
+    <meta name="theme-color" content="#23483e" />
+    <title>Идеи подарков — GiftQuest</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script defer src="assets/vendor/jquery.min.js"></script>
+    <script defer src="assets/engine.js"></script>
+    <script defer src="assets/app.js"></script>
+  </head>
+  <body data-page="catalog">
+    <a href="#main" class="skip-link">К содержимому / Skip to content</a>
+    <header id="header"></header>
+    <main id="main">
+      <div class="loading" role="status">
+        <span class="loading-gift">✧</span> GiftQuest…
+      </div>
+    </main>
+    <noscript
+      ><p class="container">
+        Для игры включите JavaScript. / Please enable JavaScript to play.
+      </p></noscript
+    >
+    <footer id="footer"></footer>
+    <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+    <div
+      id="toast"
+      class="toast-message"
+      role="status"
+      aria-live="polite"
+      hidden
+    ></div>
+  </body>
+</html>
