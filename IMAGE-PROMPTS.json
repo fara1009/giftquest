@@ -1,0 +1,197 @@
+{
+  "generator": "Built-in Imagegen (image_gen), generate mode",
+  "usage": "AI-generated photorealistic illustrations for an educational gift idea website, not actual store products.",
+  "optimization": "Local WebP encoding; product images 768x768 quality 84, hero 1200x800 quality 86, envelope 840x560 quality 82.",
+  "assets": [
+    {
+      "name": "notebook",
+      "path": "dist/assets/photos/notebook.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a closed blank sage green linen hardcover notebook with visible fabric texture, a natural wood pencil resting diagonally beside it, subtle cream pages visible at the notebook edge."
+    },
+    {
+      "name": "tea",
+      "path": "dist/assets/photos/tea.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: two small plain unlabeled tea tins, one sage green and one warm cream, beside a handmade ceramic cup with hot amber tea; one tin partly open with loose black tea leaves visible. Tasteful minimal still life."
+    },
+    {
+      "name": "plant",
+      "path": "dist/assets/photos/plant.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: one small real indoor green pothos plant with glossy heart-shaped leaves, in a simple warm cream ceramic planter with a saucer. A few leaves gently trail over the edge. Elegant healthy foliage."
+    },
+    {
+      "name": "gift",
+      "path": "dist/assets/photos/gift.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: one small kraft-paper gift box tied neatly with burgundy satin ribbon, beside a small stack of blank cream message cards. Sophisticated thoughtful present, visible natural paper and ribbon textures."
+    },
+    {
+      "name": "art",
+      "path": "dist/assets/photos/art.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a neatly arranged set of sharpened colored pencils in natural wood and a small open watercolor paint set with twelve colorful pans, beside one fine wooden paintbrush. No paint names, numbers, or branding."
+    },
+    {
+      "name": "cozy",
+      "path": "dist/assets/photos/cozy.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a softly folded chunky cream knitted throw blanket beside a small table lamp with a warm ivory fabric shade and natural wooden base. Beautiful wool texture, comfortable quiet-home mood, lamp slightly glowing despite daylight."
+    },
+    {
+      "name": "games",
+      "path": "dist/assets/photos/games.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a handsome small wooden strategy board with round wooden playing pieces and several interlocking wooden puzzle pieces arranged alongside it. Natural honey-colored wood, no printed board markings, elegant tactile tabletop entertainment."
+    },
+    {
+      "name": "accessories",
+      "path": "dist/assets/photos/accessories.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a natural unbleached canvas tote bag with plain handles resting upright, beside a simple brushed stainless steel reusable water bottle with a wooden screw top. Thoughtful everyday essentials, no branding."
+    },
+    {
+      "name": "tech",
+      "path": "dist/assets/photos/tech.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a small minimal sage green portable Bluetooth speaker with woven fabric grille and rounded edges, beside a simple natural wooden phone stand with no phone. No visible symbols or branding."
+    },
+    {
+      "name": "food",
+      "path": "dist/assets/photos/food.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: homemade golden butter cookies neatly nestled in a small open kraft gift box with pale tissue paper, accompanied by two tiny glass jars of cinnamon and loose spices with plain wooden lids. Inviting edible holiday gift."
+    },
+    {
+      "name": "book",
+      "path": "dist/assets/photos/book.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: one closed hardcover book with a plain dusty sage linen cover, stacked on a slightly larger warm cream book, beside a blank cream bookmark with a simple burgundy tassel. No writing on covers, spines, pages, or bookmark."
+    },
+    {
+      "name": "pencils",
+      "path": "dist/assets/photos/pencils.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a beautiful set of twelve sharpened colored pencils made from natural wood, neatly arranged in an open plain wood pencil box, with the colored tips clearly visible. No paints, no paintbrush, no text."
+    },
+    {
+      "name": "bookmark",
+      "path": "dist/assets/photos/bookmark.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a handmade blank cream paper bookmark with subtle textured paper and a sage green thread tassel, resting diagonally on one closed cream linen-bound book. Bookmark is the main focus, no writing or visible text anywhere."
+    },
+    {
+      "name": "reading-journal",
+      "path": "dist/assets/photos/reading-journal.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: one open reading journal with warm cream blank ruled pages and a thin natural wood pencil beside it. Fine subtle gray lines on the paper, no handwriting, no text, no lettering. Open journal is the main focus."
+    },
+    {
+      "name": "coffee",
+      "path": "dist/assets/photos/coffee.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: one standing unlabeled kraft coffee bag, a small scattering of freshly roasted brown coffee beans, and a handmade cream ceramic cup filled with black coffee. Coffee gift still life, no tea leaves, no writing on the bag."
+    },
+    {
+      "name": "mug",
+      "path": "dist/assets/photos/mug.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: one single empty handmade ceramic coffee mug with a comfortable rounded handle, creamy speckled glaze and exposed natural clay base. Top opening visible so the cup is clearly empty. No other main products."
+    },
+    {
+      "name": "cocoa",
+      "path": "dist/assets/photos/cocoa.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a thoughtful hot cocoa gift kit consisting of a cream ceramic cup filled with cocoa and white marshmallows, a small clear glass jar of cocoa powder with plain wooden lid, and a few loose white marshmallows on the surface. No labels."
+    },
+    {
+      "name": "spices",
+      "path": "dist/assets/photos/spices.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: exactly three small clear glass spice jars with natural wooden lids, filled with cinnamon sticks, red paprika powder, and dried green herbs. Three attractive unlabeled jars grouped together, no other main products."
+    },
+    {
+      "name": "recipe-cards",
+      "path": "dist/assets/photos/recipe-cards.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a small neat stack of blank cream recipe cards with subtle fine ruled lines and a tiny unlettered botanical sketch in one corner, beside a smooth wooden cooking spoon. Handcrafted stationery feeling, but absolutely no writing, pseudo-writing, words, or legible text."
+    },
+    {
+      "name": "puzzle",
+      "path": "dist/assets/photos/puzzle.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a single assembled wooden interlocking burr brain-teaser puzzle with six smooth honey-colored wooden blocks fitting together, plus one separated notched component nearby to show construction. Puzzle is the sole main product, realistic geometric craftsmanship."
+    },
+    {
+      "name": "jigsaw",
+      "path": "dist/assets/photos/jigsaw.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a partly completed physical cardboard jigsaw puzzle on the tabletop showing a peaceful mountain lake and evergreen forest scene, with a few separate matching interlocking jigsaw pieces scattered neatly nearby. Clear realistic puzzle seams and cardboard thickness, overhead three-quarter view, no box text."
+    },
+    {
+      "name": "game-invitation",
+      "path": "dist/assets/photos/game-invitation.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a beautiful blank cream invitation card and matching blank envelope beside a small group of wooden board-game pawns and two plain ivory dice with black dots. The blank card is the central main focus, no text or lettering anywhere."
+    },
+    {
+      "name": "herbs",
+      "path": "dist/assets/photos/herbs.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a small herb-growing starter kit with three tiny terracotta pots holding healthy green basil and parsley seedlings in dark potting soil, beside one plain kraft seed packet and a small wooden plant marker, both completely blank. Real leaves, visible soil, thoughtful gardening gift."
+    },
+    {
+      "name": "coaster",
+      "path": "dist/assets/photos/coaster.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift category photo for GiftQuest, a Secret Santa website. Style: premium realistic lifestyle product photograph, subtle warm holiday feeling. Scene: seamless warm oatmeal beige surface and backdrop. Composition: single cohesive arrangement centered with breathing room, square 1:1, close medium view, 50mm lens, realistic scale and perspective. Lighting: soft natural window daylight from the upper left, gentle shadows, calm inviting mood. Materials must look tactile and physically real. No people, no typography, no lettering, no logos, no watermark, no decorative graphic overlays, no illustration, no CGI. Subject: a handmade round woven natural-fiber coaster beneath a simple cream ceramic cup, with a second matching empty coaster laid beside it so its intricate weave is clearly visible. Coasters are the main focus, tactile cream and honey jute textures, a slightly overhead three-quarter close view."
+    },
+    {
+      "name": "lamp",
+      "path": "dist/assets/photos/lamp.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift suggestion photograph for GiftQuest website. Style: premium photorealistic still-life catalog photography, real tangible material textures, never CGI, 3D render or illustration. Scene: seamless soft oatmeal beige backdrop and tabletop. Lighting: warm natural daylight from the upper left, soft believable shadow. Palette: cream, sage green, warm wood, burgundy accent only if naturally present. Composition: square, centered whole objects, calm generous breathing room on all sides, carefully art-directed realistic proportions. No text, no logos, no watermark. Subject: a small warm wooden bedside lamp with a cream linen lampshade, softly illuminated, visible natural wood grain."
+    },
+    {
+      "name": "bottle",
+      "path": "dist/assets/photos/bottle.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift suggestion photograph for GiftQuest website. Style: premium photorealistic still-life catalog photography, real tangible material textures, never CGI, 3D render or illustration. Scene: seamless soft oatmeal beige backdrop and tabletop. Lighting: warm natural daylight from the upper left, soft believable shadow. Palette: cream, sage green, warm wood, burgundy accent only if naturally present. Composition: square, centered whole objects, calm generous breathing room on all sides, carefully art-directed realistic proportions. No text, no logos, no watermark. Subject: one sage green reusable stainless steel water bottle with a matching lid, matte powder coated metal and subtle real imperfections."
+    },
+    {
+      "name": "towel",
+      "path": "dist/assets/photos/towel.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift suggestion photograph for GiftQuest website. Style: premium photorealistic still-life catalog photography, real tangible material textures, never CGI, 3D render or illustration. Scene: seamless soft oatmeal beige backdrop and tabletop. Lighting: warm natural daylight from the upper left, soft believable shadow. Palette: cream, sage green, warm wood, burgundy accent only if naturally present. Composition: square, centered whole objects, calm generous breathing room on all sides, carefully art-directed realistic proportions. No text, no logos, no watermark. Subject: a neatly folded soft sage green sports towel, thick tactile terry cloth, a single simple stack."
+    },
+    {
+      "name": "resistance",
+      "path": "dist/assets/photos/resistance.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift suggestion photograph for GiftQuest website. Style: premium photorealistic still-life catalog photography, real tangible material textures, never CGI, 3D render or illustration. Scene: seamless soft oatmeal beige backdrop and tabletop. Lighting: warm natural daylight from the upper left, soft believable shadow. Palette: cream, sage green, warm wood, burgundy accent only if naturally present. Composition: square, centered whole objects, calm generous breathing room on all sides, carefully art-directed realistic proportions. No text, no logos, no watermark. Subject: a single closed loop exercise resistance band made of muted sage green fabric with subtle woven texture, arranged in a natural elliptical loop on the table."
+    },
+    {
+      "name": "travel-cover",
+      "path": "dist/assets/photos/travel-cover.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift suggestion photograph for GiftQuest website. Style: premium photorealistic still-life catalog photography, real tangible material textures, never CGI, 3D render or illustration. Scene: seamless soft oatmeal beige backdrop and tabletop. Lighting: warm natural daylight from the upper left, soft believable shadow. Palette: cream, sage green, warm wood, burgundy accent only if naturally present. Composition: square, centered whole objects, calm generous breathing room on all sides, carefully art-directed realistic proportions. No text, no logos, no watermark. Subject: one closed brown leather travel document wallet, elegant rounded corners and understated stitched edge, a little brass zipper, no readable text or inscriptions."
+    },
+    {
+      "name": "organizer",
+      "path": "dist/assets/photos/organizer.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift suggestion photograph for GiftQuest website. Style: premium photorealistic still-life catalog photography, real tangible material textures, never CGI, 3D render or illustration. Scene: seamless soft oatmeal beige backdrop and tabletop. Lighting: warm natural daylight from the upper left, soft believable shadow. Palette: cream, sage green, warm wood, burgundy accent only if naturally present. Composition: square, centered whole objects, calm generous breathing room on all sides, carefully art-directed realistic proportions. No text, no logos, no watermark. Subject: one beige linen fabric travel electronics pouch open to reveal tidy cable loops nested inside, clean practical compartments, no readable text or brands."
+    },
+    {
+      "name": "phone-stand",
+      "path": "dist/assets/photos/phone-stand.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift suggestion photograph for GiftQuest website. Style: premium photorealistic still-life catalog photography, real tangible material textures, never CGI, 3D render or illustration. Scene: seamless soft oatmeal beige backdrop and tabletop. Lighting: warm natural daylight from the upper left, soft believable shadow. Palette: cream, sage green, warm wood, burgundy accent only if naturally present. Composition: square, centered whole objects, calm generous breathing room on all sides, carefully art-directed realistic proportions. No text, no logos, no watermark. Subject: one empty simple wooden smartphone stand, beautifully carved pale oak with a small supporting slot and angled back, visible grain, no smartphone present."
+    },
+    {
+      "name": "music-card",
+      "path": "dist/assets/photos/music-card.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift suggestion photograph for GiftQuest website. Style: premium photorealistic still-life catalog photography, real tangible material textures, never CGI, 3D render or illustration. Scene: seamless soft oatmeal beige backdrop and tabletop. Lighting: warm natural daylight from the upper left, soft believable shadow. Palette: cream, sage green, warm wood, burgundy accent only if naturally present. Composition: square, centered whole objects, calm generous breathing room on all sides, carefully art-directed realistic proportions. No text, no logos, no watermark. Subject: one blank cream handmade postcard beside a pair of sage over-ear headphones, with a small physical burgundy music-note shaped paper decoration. Postcard is completely blank with no lettering."
+    },
+    {
+      "name": "event-ticket",
+      "path": "dist/assets/photos/event-ticket.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift suggestion photograph for GiftQuest website. Style: premium photorealistic still-life catalog photography, real tangible material textures, never CGI, 3D render or illustration. Scene: seamless soft oatmeal beige backdrop and tabletop. Lighting: warm natural daylight from the upper left, soft believable shadow. Palette: cream, sage green, warm wood, burgundy accent only if naturally present. Composition: square, centered whole objects, calm generous breathing room on all sides, carefully art-directed realistic proportions. No text, no logos, no watermark. Subject: a blank cream event ticket with perforated edge beside a small festive burgundy ribbon, paper and ribbon arranged naturally. No letters, no numbers, no readable text, no barcode."
+    },
+    {
+      "name": "workshop",
+      "path": "dist/assets/photos/workshop.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: square gift experience photograph for GiftQuest website. Subject: artist table with paintbrushes, a cream ceramic cup and a person's realistic hands carefully painting a small ceramic bowl; no face or body above wrists in frame. Scene: inviting warm studio table with oatmeal beige linen. Palette: cream, sage green, warm wood and subtle burgundy. Lighting: warm natural daylight from upper left. Style: premium realistic editorial photography, authentic skin and ceramic textures, never CGI, illustration or 3D render. Composition: square, full bowl and brushes with calm breathing room, centered creative activity. No text, logos or watermark."
+    },
+    {
+      "name": "picnic",
+      "path": "dist/assets/photos/picnic.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: square gift experience photograph for GiftQuest website. Subject: a real wicker picnic basket on a cream linen blanket with a small simple arrangement of fresh fruit in a peaceful park. Scene: serene sage green grass and softly blurred trees, no people. Lighting: warm natural daylight from upper left. Palette: cream, natural wicker, sage greenery and subtle burgundy grapes. Style: premium photorealistic editorial lifestyle photography, tangible woven and linen textures, never CGI, illustration or 3D render. Composition: square, whole basket centered with breathing room around the scene. No text, logos or watermark."
+    },
+    {
+      "name": "postcards",
+      "path": "dist/assets/photos/postcards.webp",
+      "prompt": "Use case: product-mockup. Asset type: square gift suggestion photograph for GiftQuest website. Style: premium photorealistic still-life catalog photography, real tangible material textures, never CGI, 3D render or illustration. Scene: seamless soft oatmeal beige backdrop and tabletop. Lighting: warm natural daylight from the upper left, soft believable shadow. Palette: cream, sage green, warm wood, burgundy accent only if naturally present. Composition: square, centered whole objects, calm generous breathing room on all sides, carefully art-directed realistic proportions. No text, no logos, no watermark. Subject: a small loosely fanned stack of physical cream postcards with delicate botanical illustrations printed on the cards, sage leaves and subtle burgundy flowers; the scene itself is a real photograph of paper cards, with visible paper fiber and realistic shadows; no text anywhere."
+    },
+    {
+      "name": "hero-photo",
+      "path": "dist/assets/hero-photo.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: main hero photograph for GiftQuest, a warm, elegant Secret Santa gift exchange website. Create one landscape editorial still-life photograph, 3:2 composition: a carefully arranged stack of actual wrapped Christmas presents in matte forest-green and warm kraft paper, tied with soft burgundy velvet ribbons, a small cream envelope with a burgundy wax seal in the foreground, subtle real pine sprigs, warm natural linen surface, softly glowing out-of-focus fairy lights in a cozy background. Materials must feel tangible: fine paper grain, velvet ribbon fibers, natural pine needles, soft shadows. Camera at slightly above table height, sophisticated premium lifestyle photography, generous breathing space around objects, no people, no printed text, no logos, no watermark. Quiet warm daylight from the left with gentle amber highlights. Main gift grouping centered, so it can crop to near-square. Real photograph style, not illustration, not cartoon, not a 3D render."
+    },
+    {
+      "name": "envelope-photo",
+      "path": "dist/assets/envelope-photo.webp",
+      "prompt": "Use case: product-mockup. Asset type: a Secret Santa recipient reveal photograph for GiftQuest. One single closed ivory paper envelope with its triangular flap and a deep burgundy wax seal, placed on softly wrinkled natural oatmeal linen, a small realistic fir sprig partly entering a corner. Top-down editorial photograph, landscape 3:2 composition, entire envelope visible centered with breathing space, warm daylight, tactile cotton paper grain, convincing wax relief without letters. Restrained cream and burgundy colors. No text, no logos, no watermark, no illustration, no 3D render, no hands."
+    }
+  ]
+}

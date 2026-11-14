@@ -1,6 +1,7 @@
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
+process.chdir(__dirname);
 const E = require("./dist/assets/engine.js");
 const gifts = JSON.parse(
   fs.readFileSync("dist/assets/data/gifts.json", "utf8"),
@@ -9,14 +10,16 @@ const dict = JSON.parse(fs.readFileSync("dist/assets/data/i18n.json", "utf8"));
 assert.deepEqual(Object.keys(dict.ru).sort(), Object.keys(dict.en).sort());
 assert.equal(gifts.length, 36);
 assert.equal(new Set(gifts.map((g) => g.id)).size, gifts.length);
-const art = fs.readFileSync("dist/assets/illustrations.svg", "utf8");
 for (const g of gifts) {
   assert(g.title.ru && g.title.en && g.description.ru && g.description.en);
   assert(g.price > 0);
-  assert(art.includes('id="' + g.art + '"'));
+  assert(/^[a-z-]+$/.test(g.photo), `Safe image filename: ${g.id}`);
+  assert(fs.existsSync(`dist/assets/photos/${g.photo}.webp`), g.photo);
+  assert(dict.ru['photo_' + g.photo] && dict.en['photo_' + g.photo]);
   for (const tag of [g.category, ...g.tags, ...g.styles])
     assert(dict.ru[tag] && dict.en[tag]);
 }
+assert.equal(new Set(gifts.map(g => g.photo)).size, 36);
 let draws = 0;
 for (let n = 3; n <= 12; n++)
   for (let round = 0; round < 100; round++) {
@@ -87,5 +90,6 @@ for (const page of [
     assert(fs.existsSync(path.join("dist", match[1])), match[1]);
 }
 console.log(
-  `PASS: ${draws} draws; no self/duplicate recipients; fallback; matching, exclusions and budget; date validation; 36 gifts; bilingual key parity; local assets.`,
+  `PASS: ${draws} draws; no self/duplicate recipients; fallback; matching, exclusions and budget; date validation; 36 gifts and distinct local photographs; bilingual key parity; local assets.`,
 );
+require('./theme-checks.cjs');

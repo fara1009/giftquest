@@ -1,8 +1,4 @@
-.sites-local/
-.DS_Store
-*.log
-*.tar.gz
+.git/
+.openai/
 *.zip
-qa/
-tmp/
-outputs/
+*.log
