@@ -87,7 +87,7 @@ for (const page of [
 ]) {
   const source = fs.readFileSync(`dist/${page}.html`, "utf8");
   for (const match of source.matchAll(/(?:src|href)="(assets\/[^"#]+)"/g))
-    assert(fs.existsSync(path.join("dist", match[1])), match[1]);
+    assert(fs.existsSync(path.join("dist", match[1].split("?")[0])), match[1]);
 }
 console.log(
   `PASS: ${draws} draws; no self/duplicate recipients; fallback; matching, exclusions and budget; date validation; 36 gifts and distinct local photographs; bilingual key parity; local assets.`,
