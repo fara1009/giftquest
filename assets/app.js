@@ -1629,8 +1629,8 @@ ${esc(p.note)}</textarea>
         translations = window.GiftQuestLocalData.i18n;
         gifts = window.GiftQuestLocalData.gifts;
       } else [translations, gifts] = await Promise.all([
-        $.getJSON("assets/data/i18n.json"),
-        $.getJSON("assets/data/gifts.json"),
+        $.getJSON("assets/data/i18n.json?v=20261114-photo"),
+        $.getJSON("assets/data/gifts.json?v=20261114-photo"),
       ]);
       loadState();
       const wanted = new URLSearchParams(location.search).get("person");
